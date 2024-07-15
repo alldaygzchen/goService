@@ -1,5 +1,7 @@
 # Notes:
 
+https://github.com/techschool/simplebank/
+
 ## create db schema using dbdiagram.io
 
 ```
@@ -50,4 +52,15 @@ migrate -path db/migration -database "postgresql://root:xxxxx@localhost:5432/sim
 
 ```
 
-## start6
+## sqlc
+
+```
+brew install sqlc
+sqlc version
+sqlc help
+sqlc init
+set yaml
+make sqlc => detects query folder and create sqlc folder and releated files
+go mod init github.com/alldaygzchen/goService => go.mod
+go mod tidy => install dependency
+```

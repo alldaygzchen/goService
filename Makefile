@@ -13,5 +13,6 @@ remove:
 	docker stop postgres12
 	sleep 5
 	docker rm postgres12
-
-.PHONY: postgres createdb dropdb migrateup migratedown
+sqlc:
+	sqlc generate
+.PHONY: postgres createdb dropdb migrateup migratedown remove sqlc
