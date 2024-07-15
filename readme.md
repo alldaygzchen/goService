@@ -60,7 +60,7 @@ sqlc version
 sqlc help
 sqlc init
 set yaml
-make sqlc => detects query folder and create sqlc folder and releated files
+make sqlc => detects sql file in query folder and create sqlc folder and releated files
 go mod init github.com/alldaygzchen/goService => go.mod
 go mod tidy => install dependency
 ```
